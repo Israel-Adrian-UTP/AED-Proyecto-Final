@@ -76,18 +76,10 @@ El código fuente se organiza en las siguientes clases principales:
 ### Requisitos
 * **JDK** (Java Development Kit) instalado (Java 8 o superior).
 
-### Compilar y ejecutar desde terminal
-```bash
-javac GestionDeRepuestosDeCocina.java
-java GestionDeRepuestosDeCocina
-```
-
-*(También puedes abrir y ejecutar el proyecto directamente desde un IDE como **NetBeans**.)*
-
 ---
 
 ## Limitaciones Actuales y Mejoras Futuras
 
 * **Persistencia de datos:** La información se mantiene en memoria durante la ejecución; al cerrar el programa se pierde. Se proyecta integrar una base de datos relacional.
-* **Escalabilidad:** Para inventarios grandes, el ordenamiento burbuja ($O(n^2)$) y la búsqueda secuencial ($O(n)$) pueden reemplazarse por algoritmos más eficientes (como *Merge Sort*) y estructuras de búsqueda más rápidas.
+* **Escalabilidad:** Para inventarios grandes, el ordenamiento burbuja y la búsqueda secuencial pueden reemplazarse por algoritmos más eficientes (como *Merge Sort*) y estructuras de búsqueda más rápidas.
 * **Interfaz y filtros:** Incorporar interfaz gráfica y opciones de búsqueda/ordenamiento por nombre o precio.
